@@ -55,14 +55,14 @@ export default function CartSummary() {
 
       <p>Use 4242 4242 4242 4242 as the card number.</p>
       <button
-        className="cart-style-background"
+        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
         type="submit"
         disabled={cartEmpty || loading}
       >
         Checkout <div className="card-number"></div>
       </button>
       <button
-        className="cart-style-background"
+        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
         type="button"
         onClick={clearCart}
       >
