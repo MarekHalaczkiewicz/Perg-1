@@ -1,5 +1,3 @@
-// components/CartSummary.js
-
 import { useState, useEffect } from "react";
 import { useShoppingCart } from "use-shopping-cart";
 import { fetchPostJSON } from "../utils/apiHelpers";
@@ -55,14 +53,14 @@ export default function CartSummary() {
 
       <p>Use 4242 4242 4242 4242 as the card number.</p>
       <button
-        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
         type="submit"
         disabled={cartEmpty || loading}
       >
         Checkout <div className="card-number"></div>
       </button>
       <button
-        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
         type="button"
         onClick={clearCart}
       >

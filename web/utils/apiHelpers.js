@@ -1,6 +1,7 @@
 export async function fetchGetJSON(url) {
   try {
     const data = await fetch(url).then((res) => res.json());
+    console.log(data);
     return data;
   } catch (err) {
     throw new Error(err.message);
@@ -9,6 +10,7 @@ export async function fetchGetJSON(url) {
 
 export async function fetchPostJSON(url, data) {
   try {
+    // Default options are marked with *
     const response = await fetch(url, {
       method: "POST",
       mode: "cors", // no-cors, *cors, same-origin

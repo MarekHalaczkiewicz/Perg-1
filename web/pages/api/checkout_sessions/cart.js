@@ -4,7 +4,7 @@ import { client } from "../../../lib/sanity/client";
 import { merchQuery } from "../../../lib/sanity/merchQuery";
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
   // https://github.com/stripe/stripe-node#configuration
-  apiVersion: "2020-03-02",
+  apiVersion: "2020-08-27",
 });
 
 export default async function handler(req, res) {
@@ -23,7 +23,7 @@ export default async function handler(req, res) {
         payment_method_types: ["card"],
         billing_address_collection: "auto",
         shipping_address_collection: {
-          allowed_countries: ["EUR"],
+          allowed_countries: ["US"],
         },
         //The validated cart items are inserted.
         line_items,
