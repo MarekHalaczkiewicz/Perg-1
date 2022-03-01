@@ -1,7 +1,6 @@
 export async function fetchGetJSON(url) {
   try {
     const data = await fetch(url).then((res) => res.json());
-    console.log(data);
     return data;
   } catch (err) {
     throw new Error(err.message);
@@ -24,6 +23,7 @@ export async function fetchPostJSON(url, data) {
       referrerPolicy: "no-referrer", // no-referrer, *client
       body: JSON.stringify(data || {}), // body data type must match "Content-Type" header
     });
+    // console.log(response);
     return await response.json();
   } catch (err) {
     throw new Error(err.message);
