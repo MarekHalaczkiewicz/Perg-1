@@ -23,7 +23,7 @@ export default async function handler(req, res) {
         payment_method_types: ["card"],
         billing_address_collection: "auto",
         shipping_address_collection: {
-          allowed_countries: ["eur"],
+          allowed_countries: ["US"],
         },
         //The validated cart items are inserted.
         line_items,
