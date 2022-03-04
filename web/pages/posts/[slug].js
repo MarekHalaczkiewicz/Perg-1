@@ -14,7 +14,7 @@ export default function Post({ post }) {
       <img src={urlFor(post?.mainImage).width(300)} />
       <BlockContent blocks={post?.body} />
       <Link href="/">
-        <a>Back home</a>
+        <a>Back home Test</a>
       </Link>
     </>
   );
