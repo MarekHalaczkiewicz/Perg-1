@@ -2,6 +2,8 @@ import Link from "next/link";
 import { client } from "../lib/sanity/client";
 import { homeQuery } from "../lib/sanity/homeQuery";
 import Navbar from "../components/Navbar";
+import PergLogo from '../components/svgs/PRG_logo.svg';
+
 
 export default function Home({ posts }) {
   return (
@@ -14,6 +16,9 @@ export default function Home({ posts }) {
             <a>Merch Store</a>
           </Link>
         </h1> */}
+        <div>
+          <PergLogo />
+        </div>
         <hr />
         <ul>
           {posts.map((p) => (
