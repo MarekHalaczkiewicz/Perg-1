@@ -4,10 +4,12 @@ import CartSummary from "../../components/CartSummary";
 import Products from "../../components/Products";
 import { client } from "../../lib/sanity/client";
 import { merchQuery } from "../../lib/sanity/merchQuery";
+import Navbar from "../../components/Navbar";
 
 const Merch = ({ products }) => {
   return (
     <main>
+      <Navbar />
       <h1>My Merch Store</h1>
       <Cart>
         <Products products={products} />
