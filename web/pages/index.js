@@ -1,16 +1,19 @@
 import Link from "next/link";
 import { client } from "../lib/sanity/client";
 import { homeQuery } from "../lib/sanity/homeQuery";
+import Navbar from "../components/Navbar";
+
 export default function Home({ posts }) {
   return (
     <div>
       <main>
-        <h1>
+        <Navbar />
+        {/* <h1>
           My Blog and{" "}
           <Link href="/merch">
             <a>Merch Store</a>
           </Link>
-        </h1>
+        </h1> */}
         <hr />
         <ul>
           {posts.map((p) => (
