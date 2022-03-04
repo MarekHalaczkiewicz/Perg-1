@@ -16,7 +16,7 @@ export default function Home({ posts }) {
           </Link>
         </h1>
         <div>
-          <PergLogo style="width:404px"/>
+          <PergLogo />
         </div>
         <hr />
         <ul>
