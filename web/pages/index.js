@@ -3,12 +3,13 @@ import { client } from "../lib/sanity/client";
 import { homeQuery } from "../lib/sanity/homeQuery";
 import Menu from "../components/Menu";
 import Hero from "../components/Hero";
-import Background from "../components/svgs/prg_orbit_odysey 1.svg";
+import Background from "../components/svgs/Background";
 
 export default function Home({ posts }) {
   return (
     <div>
-      <main style={{ backgroundImage: `url(${Background})` }}>
+      <main>
+        <Background />
         <Menu />
         <Hero />
         {/* <h1>
