@@ -1,24 +1,24 @@
 import Link from "next/link";
 import { client } from "../lib/sanity/client";
 import { homeQuery } from "../lib/sanity/homeQuery";
-import Navbar from "../components/Navbar";
-import PergLogo from '../components/svgs/PRG_logo.svg';
-
+import Menu from "../components/Menu";
+import Hero from "../components/Hero";
+import Background from "../components/svgs/Background";
 
 export default function Home({ posts }) {
   return (
     <div>
       <main>
-        <Navbar />
+        <Background />
+        <Menu />
+        <Hero />
         {/* <h1>
           My Blog and{" "}
           <Link href="/merch">
             <a>Merch Store</a>
           </Link>
         </h1> */}
-        <div>
-          <PergLogo />
-        </div>
+
         <hr />
         <ul>
           {posts.map((p) => (
