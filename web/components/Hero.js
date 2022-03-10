@@ -28,7 +28,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="z-20 flex flex-col justify-items-center items-center relative">
-        <h2>Veit Schmidleitner</h2>
+        <h2>Veit Schmidleitner (test)</h2>
         <h3>ORBIT ODDYSEY</h3>
         <p>March 18 - June 19, 2022</p>
       </div>
