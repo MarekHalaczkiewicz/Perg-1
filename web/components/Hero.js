@@ -1,4 +1,6 @@
-import Oddysey from "../components/svgs/COL_5_1.svg";
+import Link from "next/link";
+
+import Oddysey from "./svgs/OrbitOddysey.svg";
 
 const Hero = () => {
   return (
@@ -11,7 +13,12 @@ const Hero = () => {
         </div>
         <div className="z-20 w-1/3">
           <div className="">
-            <Oddysey className="w-full h-100" />
+            <Link href="https://www.instagram.com/veit.schmidleitner/?hl=en">
+              <Oddysey
+                target="_blank"
+                className="w-full h-100 cursor-pointer"
+              />
+            </Link>
           </div>
         </div>
         <div className="w-1/3 flex justify-center">
