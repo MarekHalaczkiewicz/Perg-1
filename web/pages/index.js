@@ -18,8 +18,6 @@ export default function Home({ posts }) {
             <a>Merch Store</a>
           </Link>
         </h1> */}
-
-        <hr />
         <ul>
           {posts.map((p) => (
             <li key={p._id}>
