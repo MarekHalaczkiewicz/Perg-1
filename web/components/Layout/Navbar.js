@@ -4,10 +4,10 @@ const Navbar = () => {
       <nav className="flex items-center justify-between flex-wrap p-3">
         <div className="navbar--left">
           {/* <button className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center opacity-50 cursor-not-allowed"> */}
-          <a className="filter blur-sm lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-magistrat-light items-center justify-center cursor-not-allowed">
+          <a className="filter blur-sm inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-magistrat-light items-center justify-center cursor-not-allowed">
             en
-          </a>  
-            {/* <svg
+          </a>
+          {/* <svg
               className="fill-current w-4 h-4 mr-2"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"

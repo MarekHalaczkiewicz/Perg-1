@@ -22,7 +22,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-1/3 flex justify-center">
-          <button className="filter blur-sm text-6xl font-magistrat cursor-not-allowed">
+          <button className="filter blur-sm text-md md:text-6xl font-magistrat cursor-not-allowed">
             shop
           </button>
         </div>
