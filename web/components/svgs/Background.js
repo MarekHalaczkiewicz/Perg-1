@@ -3,7 +3,7 @@ import React from "react";
 export default function Background() {
   return (
     <svg
-      className="w-screen absolute z-0 -m-16"
+      className="w-screen absolute z-10 -m-16"
       width="1788"
       height="1080"
       viewBox="0 0 1788 1080"
