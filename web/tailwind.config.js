@@ -4,11 +4,11 @@ module.exports = {
   theme: {
     extend: {
       height: {
-        100: "36rem"
+        100: "36rem",
       },
       fontFamily: {
-        'magistrat': ['magistrat', 'sans-serif']
-      }
+        magistrat: ["magistrat", "sans-serif"],
+      },
     },
   },
   variants: {
