@@ -4,7 +4,7 @@ const Navbar = () => {
       <nav className="flex items-center justify-between flex-wrap p-3">
         <div className="navbar--left">
           {/* <button className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center opacity-50 cursor-not-allowed"> */}
-          <a className="filter blur-sm inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-magistrat-light items-center justify-center cursor-not-allowed">
+          <a className="text-xs filter blur-sm inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-magistrat-light items-center justify-center cursor-not-allowed">
             en
           </a>
           {/* <svg
@@ -18,12 +18,12 @@ const Navbar = () => {
           {/* </button> */}
         </div>
         <div className="navbar--right">
-          <div className="hidden w-full lg:inline-flex lg:flex-grow lg:w-auto">
-            <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto">
-              <a className="filter blur-sm lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-magistrat-light items-center justify-center cursor-not-allowed">
+          <div className="w-full inline-flex flex-grow w-auto">
+            <div className="inline-flex flex-row ml-auto w-auto w-full items-center items-start flex h-auto">
+              <a className="text-xs filter blur-sm inline-flex w-auto w-full px-3 py-2 rounded text-black font-magistrat-light items-center justify-center cursor-not-allowed">
                 search
               </a>
-              <a className="filter blur-sm lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-black font-magistrat-light items-center justify-center cursor-not-allowed">
+              <a className="text-xs filter blur-sm inline-flex w-auto w-full px-3 py-2 rounded text-black font-magistrat-light items-center justify-center cursor-not-allowed">
                 bag(0)
               </a>
             </div>

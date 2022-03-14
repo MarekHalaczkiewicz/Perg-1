@@ -12,6 +12,7 @@ module.exports = {
     extend: {
       height: {
         100: "36rem",
+        200: "50rem",
       },
       fontFamily: {
         magistrat: ["magistrat", "sans-serif"],
