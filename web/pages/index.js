@@ -12,6 +12,13 @@ export default function Home({ posts }) {
       <main>
         <Background />
         <div className="flex flex-col">
+          <div className="flex place-content-center">
+            <div className="bg-black px-2 mb-1 z-30">
+              <p className="text-white text-xxs md:text-base text-center">
+                /website under construction
+              </p>
+            </div>
+          </div>
           <Menu />
           <Hero />
           <Description />
