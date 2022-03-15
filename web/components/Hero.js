@@ -7,7 +7,7 @@ import Oddysey from "./svgs/OrbitOddysey.svg";
 const Hero = () => {
   return (
     <>
-      <div className=" flex items-center justify-around relative">
+      <div className=" flex items-center justify-around relative ">
         <div className="w-1/3 flex justify-center">
           <button className="filter blur-sm text-md md:text-6xl sm:text-2xl cursor-not-allowed">
             show
@@ -18,7 +18,7 @@ const Hero = () => {
             <Link href="https://www.instagram.com/veit.schmidleitner/?hl=en">
               <Oddysey
                 target="_blank"
-                className="w-full h-full cursor-pointer"
+                className="w-full h-72 md:h-full cursor-pointer"
               />
             </Link>
           </div>
