@@ -6,7 +6,7 @@ export default function Background() {
       className="absolute z-10 h-full w-full top-0"
       width="50"
       height="50"
-      viewBox="350 0 1100 1300"
+      viewBox="350 0 1100 1140"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

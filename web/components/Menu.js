@@ -3,7 +3,7 @@ import PergLogo from "../components/svgs/PRG_logo.svg";
 const Menu = (props) => {
   return (
     <>
-      <div className="flex justify-items-center content-center place-content-center	relative -my-8 xs:-my-18 md:-my-24 xl:-my-28">
+      <div className="flex justify-items-center content-center place-content-center	relative -my-7 xs:-my-18 md:-my-24 xl:-my-36">
         <PergLogo className="z-20 w-1/4 h-1/4" />
       </div>
       <div className="flex justify-items-center content-between place-content-center text-sm mb-12 xl:-mt-10 ">

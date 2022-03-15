@@ -15,7 +15,7 @@ module.exports = {
         200: "50rem",
       },
       fontFamily: {
-        magistrat: ["magistrat", "sans-serif"],
+        magistrat: ["magistrat", "sans-serif", "magistrat-italic"]
       },
     },
   },
