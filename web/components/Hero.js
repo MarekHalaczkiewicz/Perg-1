@@ -4,8 +4,11 @@ import Oddysey from "./svgs/OrbitOddysey.svg";
 
 const Hero = () => {
   return (
-    <>
-      <div className=" flex items-center justify-around pt-12 relative">
+     <div className="bg-white">
+      <div className="z-30 mt-36 w-full ml-72 font-magistrat-light italic xs:text-transparent sm:text-black text-3xl filter invert  mix-blend-difference flex justify-center absolute">
+        <p>/website under construction</p>
+      </div>
+      <div className=" flex items-center justify-around relative ">
         <div className="w-1/3 flex justify-center">
           <button className="filter blur-sm text-6xl cursor-not-allowed">
             show
@@ -32,7 +35,6 @@ const Hero = () => {
         <h3>ORBIT ODDYSEY</h3>
         <p>March 18 - June 19, 2022</p>
       </div>
-    </>
   );
 };
 
