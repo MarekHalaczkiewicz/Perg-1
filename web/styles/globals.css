@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'magistrat';
+    font-weight: 100;
+    src: url('/web/assets/fonts/Magistrat-Regular100.otf');
+  }
+  @font-face {
+    font-family: 'magistrat-light';
+    font-weight: 300;
+    src: url('/web/assets/fonts/Magistrat-Light60.otf');
+  }
+  @font-face {
+    font-family: 'magistrat-italic';
+    font-weight: 400;
+    src: url('/web/assets/fonts/Magistrat-Italic100.otf');
+  }
+}

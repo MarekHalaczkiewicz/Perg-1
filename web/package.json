@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-stripe-sanity",
+  "name": "perg-store",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -21,6 +21,7 @@
     "use-shopping-cart": "^2.4.3"
   },
   "devDependencies": {
+    "@svgr/webpack": "^5.5.0",
     "autoprefixer": "^10.3.7",
     "postcss": "^8.3.9",
     "tailwindcss": "^2.2.17"
