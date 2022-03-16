@@ -1,8 +1,6 @@
 import Link from "next/link";
 
 import Oddysey from "./svgs/OrbitOddysey.svg";
-// import Oddysey from "../assets/oddysey.jpg";
-// const oddysey = require("../public/oddysey.jpg");
 
 const Hero = () => {
   return (
