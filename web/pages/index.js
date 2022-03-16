@@ -4,7 +4,6 @@ import { homeQuery } from "../lib/sanity/homeQuery";
 import Menu from "../components/Menu";
 import Hero from "../components/Hero";
 import Background from "../components/svgs/Background";
-import Description from "../components/Description";
 
 export default function Home({ posts }) {
   return (

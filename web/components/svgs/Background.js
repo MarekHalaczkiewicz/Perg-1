@@ -3,10 +3,10 @@ import React from "react";
 export default function Background() {
   return (
     <svg
-      className="absolute z-10 h-full w-full top-0"
-      width="50"
-      height="50"
-      viewBox="350 0 1100 1140"
+      className="w-screen absolute z-10 -m-16"
+      width="1788"
+      height="1726"
+      viewBox="0 0 1788 1726"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
