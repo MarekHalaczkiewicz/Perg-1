@@ -7,9 +7,9 @@ import Oddysey from "./svgs/OrbitOddysey.svg";
 const Hero = () => {
   return (
     <div className="bg-white">
-        <div className="z-30 mt-36 w-full ml-72 font-magistrat-light italic xs:text-transparent sm:text-black text-3xl filter invert  mix-blend-difference flex justify-center absolute">
-          <p>/website under construction</p>
-        </div>
+      <div className="z-30 mt-36 w-full pl-96 center hidden sm:flex font-magistrat-light italic xs:text-transparent sm:text-black text-3xl filter invert  mix-blend-difference flex justify-center absolute">
+        <p>/website under construction</p>
+      </div>
       <div className=" flex items-center justify-around relative ">
         <div className="w-1/3 flex justify-center">
           <button className="filter blur-sm text-md md:text-6xl sm:text-2xl cursor-not-allowed">
