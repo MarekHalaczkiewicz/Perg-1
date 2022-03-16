@@ -4,25 +4,14 @@ import { homeQuery } from "../lib/sanity/homeQuery";
 import Menu from "../components/Menu";
 import Hero from "../components/Hero";
 import Background from "../components/svgs/Background";
-import Description from "../components/Description";
 
 export default function Home({ posts }) {
   return (
     <div>
       <main>
         <Background />
-        <div className="flex flex-col">
-          <div className="flex place-content-center">
-            <div className="px-2 mb-1 z-30">
-              <p className="xs:text-white bg-black text-xxs sm:bg-transparent text-transparent">
-                /website under construction
-              </p>
-            </div>
-          </div>
-          <Menu />
-          <Hero />
-          <Description />
-        </div>
+        <Menu />
+        <Hero />
         {/* <h1>
           My Blog and{" "}
           <Link href="/merch">
