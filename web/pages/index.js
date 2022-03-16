@@ -13,8 +13,8 @@ export default function Home({ posts }) {
         <Background />
         <div className="flex flex-col">
           <div className="flex place-content-center">
-            <div className="bg-black px-2 mb-1 z-30">
-              <p className="text-white text-xxs md:text-base text-center">
+            <div className="px-2 mb-1 z-30">
+              <p className="xs:text-white bg-black text-xxs sm:bg-transparent text-transparent">
                 /website under construction
               </p>
             </div>
